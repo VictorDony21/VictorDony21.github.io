@@ -1,0 +1,59 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 90%;
+  background-color: transparent;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.navbar.opaque {
+  background-color: #f2f2f2;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.iconos{
+
+  margin: 30px; 
+  padding: 30px;
+
+}
+
+body {
+  width: 90%; /* Ancho del cuerpo */
+  height: 100%; /* Altura del cuerpo */
+  margin: 0 auto; /* Centrar horizontalmente el cuerpo */
+  background-color: #333; /* Color de fondo del cuerpo */
+  border: 1px solid #ccc; /* Borde del cuerpo */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra del cuerpo */
+  justify-content: center;
+  align-items: center;
+  overflow: auto; /* Habilitar el desplazamiento si es necesario */
+  
+}
+
+
+
+
